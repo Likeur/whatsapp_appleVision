@@ -3,17 +3,21 @@
     <div class="absolute h-full w-full grid z-40 place-content-center">
         <div>
            <div class="flex justify-center">
-            <div class="h-[2rem] flex justify-center items-center backdrop-blur-3xl overflow-hidden mb-4 w-[20vw] rounded-3xl  border border-white/30">
+            <div class="h-[2rem] flex px-4 items-center backdrop-blur-3xl overflow-hidden mb-4 w-max rounded-3xl  border border-white/30">
+                <img width="48" class="scale-50" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
                 <p class="text-white/70">Coded by &#64;<a href="" class="underline text-white">likeur</a></p>
             </div>
            </div>
             <div class="flex gap-4 items-center">
                 <div class="h-[20vh] backdrop-blur-3xl w-[3rem] rounded-3xl hover:w-[8rem] duration-300  border border-white/30"></div>
                 <div class="h-[80vh] overflow-hidden flex w-[70vw] bg-white/5 rounded-3xl backdrop-blur-3xl border border-white/25">
-                    <div class="w-[25%] overflow-hidden bg-white/5">
-                        
+                    <div class="w-[30%] p-3
+                     overflow-hidden bg-white/5">
+                        <div>
+                            <app-chat-list/>
+                        </div>
                     </div>
-                    <div class="w-[75%] bg-white/15"></div>
+                    <div class="w-[70%] bg-white/15"></div>
                 </div>
             </div>
             <div class="flex justify-center mt-4 gap-2">
